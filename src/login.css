@@ -1,0 +1,26 @@
+.login{
+    display: flex;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color:antiquewhite;
+}
+.loginContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 30vw;
+    min-height: 50vh;
+    background-color: aqua;
+    margin: auto;
+}
+.formLogin{
+    display: flex;
+    flex-direction: column;
+
+}
+.links{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
