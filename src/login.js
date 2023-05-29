@@ -1,11 +1,19 @@
+import React from "react";
 import "./login.css";
+import { useState } from "react";
 function Login(){
+    const [myState, setState] = React.
+    useState("");
     return (
       <div className="login">
         <div className="loginContainer">
           <form action="post" className="formLogin">
-            <label htmlFor="userName">User Name</label>
-            <input type="text" /><br />
+            <label htmlFor="email">Email</label>
+            <input type="text"
+            value={myState}
+            onChange={(event)=>{
+              setState(event.target.value)
+            }}/><br />
             <label htmlFor="password">Password</label>
             <input type="password" /><br />
             <button>Login</button>
