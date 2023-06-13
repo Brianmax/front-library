@@ -1,0 +1,12 @@
+.header{
+    background-color:peru;
+    margin-top: 0;
+    height: 8%;
+}
+.container{
+    padding-top: 15px;
+}
+ul.header-item{
+    margin: 0;
+    display: inline;
+}

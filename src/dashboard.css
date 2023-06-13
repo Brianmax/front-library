@@ -1,0 +1,20 @@
+.filter-books{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: antiquewhite;
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    border: solid;
+}
+.button-result{
+    background-color: green;
+    color: white;
+}
+
+.input-filter{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
